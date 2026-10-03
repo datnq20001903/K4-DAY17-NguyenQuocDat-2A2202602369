@@ -1,5 +1,17 @@
 # Phase 2, Track 3, Day 17: Memory Systems for AI Agent
 
+## Bài nộp
+
+Repo bài làm: `K4-DAY17-NguyenQuocDat-2A2202602369`.
+
+- `src/`: mã nguồn hoàn thiện và các test
+- `data/`: input benchmark gốc
+- `STEP8.md`: phân tích kết quả theo yêu cầu ở Bước 8 trong Guide
+
+Thư mục nộp không bao gồm môi trường ảo hoặc dữ liệu chạy cục bộ (`.venv/`,
+`state/`). Tạo môi trường Python 3.11+ và cài các dependency theo phần Setup
+bên dưới trước khi chạy.
+
 Trong Day 17 này, các bạn sẽ tập trung vào một câu hỏi rất thực tế: làm sao để AI agent **không chỉ trả lời tốt trong một lượt chat**, mà còn **nhớ đúng thông tin quan trọng qua nhiều phiên làm việc** mà vẫn kiểm soát được chi phí token.
 
 Trong bài lab này, các bạn sẽ xây dựng và so sánh hai agent:
@@ -35,7 +47,7 @@ Sau khi hoàn thành, các bạn cần có khả năng:
 ├── data/            # dữ liệu benchmark dùng chung
 │   ├── conversations.json
 │   └── advanced_long_context.json
-└── src/             # bản scaffold dành cho sinh viên (pseudocode + TODO)
+└── src/             # mã nguồn agent, memory, benchmark và tests
     ├── model_provider.py
     ├── config.py
     ├── memory_store.py
